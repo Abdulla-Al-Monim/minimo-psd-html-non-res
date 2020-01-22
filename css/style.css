@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.text-center{
+	text-align: center;
+	margin: 0 auto;
+}
+.container-fluit{
+	width: 100%;			
+}
+.container{
+	width: 1140px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.colam-4{
+	width: 40%;
+	float: left;
+}
+
+.colam-8{
+	width: 60%;
+	float: left;
+}
+.colam-2{
+	width: 18%;
+	float: left;
+}
+.colam-5{
+	width: 23%;
+	float: left;
+}
+.colam-10{
+	width: 80%;
+	float: left;
+}
+.colam-3{
+	width: 20%;
+	float: left;
+}
+.text-right{
+	text-align: right;
+	margin: 0 auto;
+}
+/* header section
+*************/
+.header{
+	background: white;
+}
+.header .logo{
+	padding-top: 50px;
+	padding-left: 150px;
+}
+.header-btn ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 50px 0px;
+}
+.header-btn ul li button{
+	background: none;
+	border: none;
+	padding: 0 40px;
+}
+/* post section 1st */
+.colam-1{
+	width: 100%;
+}
+.content{
+	padding: 60px 100px;
+	margin-left: 15px;
+}
+h3{
+	color: #B4AD9E;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 10px;
+
+}
+.content h1{
+	color: #626262;
+	margin: 10px;
+}
+.content p{
+	color: #9E9E9E;
+	margin: 10px;
+	margin-bottom: 50px;
+}
+/* post section 2 */
+.colam-6{
+	width: 50%;
+	float: left;
+}
+.content-1{
+	padding-top: 60px;
+	padding-left: 100px;
+	margin-left: 15px;
+}
+.content-2{
+	margin-left: 15px;
+	padding-top: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+.content-1 h3{
+	color: #B4AD9E;
+	text-decoration: none;
+	margin: 10px;
+	font-size: 12px;
+	padding-left: 100px;	
+}
+.content-2 h1{
+	color: #626262;
+	margin: 10px;
+}
+.content-2 p{
+	color: #9E9E9E;
+	margin-bottom: 50px;
+	margin: 10px;
+
+}
+/* sign up section
+********/
+.sign{
+	background: #F0F0F0;
+}
+.sign .padding-top{
+	padding-top: 70px;
+}
+.sign h1{
+	padding: 30px 0;
+	color: #333333; 
+}
+.sign p{
+	color: #626262;
+	padding-left: 10px;
+}
+.horizontal-line{
+	border:1px solid #494949;
+	width: 20%;
+	margin: 10px auto;
+	margin-bottom: 50px;
+}
+/***********
+post section 3
+**********/
+.post-3 button{
+	border: 1px solid #707070;
+	background: none;
+	padding: 10px 20px;
+	margin-bottom: 100px;
+}
+/* footer section*/
+.footer{
+	background: #F0F0F0;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 30px 15px;
+}
+.footer ul li button{
+	background: none;
+	border: none;
+	padding: 5px 10px;
+}
